@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOP 7 UTILIDADES</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #000000;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #f8b704, #4e2014);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 14px;
+      box-shadow: 0 2px 10px rgba(235, 200, 4, 0.842);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #222;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 14px rgba(230, 178, 8, 0.945);
+    }
+
+    .hero-info {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .nota {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .subinfo {
+      color: #555;
+      margin-top: 8px;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #fff3cd;
+      color: #7a5b00;
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      color: #e7a006;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .mini-card {
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    .review {
+      border-left: 4px solid #111;
+      padding-left: 15px;
+      margin-bottom: 20px;
+    }
+
+    .review h4 {
+      margin-bottom: 6px;
+    }
+
+    .review span {
+      color: #777;
+      font-size: 0.95rem;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #111;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .hero-info {
+        grid-template-columns: 1fr;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TOP 7 UTILIDADES</h1>
+    <p>Loja de variedades com preço único de <strong>R$ 7,00</strong></p>
+  </header>
+
+  <nav>
+    <a href="#visao-geral">Visão Geral</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#avaliacoes">Avaliações</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="visao-geral" class="card">
+      <div class="hero-info">
+        <div>
+          <h2 class="section-title">Visão Geral</h2>
+          <p><strong>Preço único:</strong> R$ 7,00</p>
+          <p><strong>Nota:</strong> 4,2 ⭐</p>
+          <p><strong>Total de avaliações:</strong> 172</p>
+          <p><strong>Categoria:</strong> Loja de variedades</p>
+          <p class="subinfo"><strong>Endereço:</strong> Av. Anhanguera, N° 4908 - St. Central, Goiânia - GO, 74043-010</p>
+          <p class="subinfo"><strong>Localização adicional:</strong> 8PGV+87 St. Central, Goiânia - GO</p>
+          <p class="status">Fecha em breve · 19:00 · Abre quinta às 08:00</p>
+          <br>
+          <a class="btn" href="#contato">Ver informações</a>
+        </div>
+
+        <div class="mini-card">
+          <div class="nota">4,2</div>
+          <p>Baseado em 172 avaliações</p>
+          <p class="subinfo">Loja conhecida pelos preços acessíveis e grande variedade de produtos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="card">
+      <h2 class="section-title">Sobre a loja</h2>
+      <p>
+        A <strong>TOP 7 UTILIDADES</strong> é uma loja de variedades localizada no centro de Goiânia,
+        conhecida pelo modelo de <strong>preço único de R$ 7,00</strong>. O local oferece diversas opções
+        de utilidades domésticas, itens de vidro, plástico e outros produtos acessíveis para o dia a dia.
+      </p>
+      <br>
+      <div class="grid">
+        <div class="mini-card">
+          <h3>Destaque</h3>
+          <p>Grande variedade de produtos para casa e organização.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Ponto forte</h3>
+          <p>Preços acessíveis e boa localização na Av. Anhanguera.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Atenção</h3>
+          <p>Em horários de pico, o movimento pode ser maior e as filas mais longas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 class="section-title">Resumo das avaliações</h2>
+      <div class="grid">
+        <div class="mini-card">
+          <h3>O que elogiam</h3>
+          <p>Variedade de produtos, utensílios domésticos e preços acessíveis.</p>
+        </div>
+        <div class="mini-card">
+          <h3>O que observar</h3>
+          <p>Alguns clientes relatam filas grandes e poucos caixas em horários movimentados.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Experiência geral</h3>
+          <p>Nota média 4,2, com avaliações positivas sobre diversidade e organização.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="avaliacoes" class="card">
+      <h2 class="section-title">Avaliações de clientes</h2>
+
+      <div class="review">
+        <h4>Daniella Souza</h4>
+        <span>⭐⭐⭐⭐⭐ · um mês atrás</span>
+        <p>
+          “Muito lotado como se é de esperar, mas tem muitas coisas lindíssimas. O diferencial foi ter muitas peças de vidro,
+          enquanto outros lugares geralmente só têm plástico.”
+        </p>
+      </div>
+
+      <div class="review">
+        <h4>Kennia Medeiros</h4>
+        <span>⭐⭐⭐⭐⭐ · 3 meses atrás</span>
+        <p>
+          “Tem opção demais, a loja é enorme e bem organizada. Tudo você acha que precisa! No geral, indico.”
+        </p>
+      </div>
+
+      <div class="review">
+        <h4>Claudya Aronovitch</h4>
+        <span>⭐⭐⭐⭐⭐ · um mês atrás</span>
+        <p>
+          “A loja estava com cerca de 30 pessoas na fila, poucos caixas disponíveis e o atendimento demorou bastante.”
+        </p>
+      </div>
+    </section>
+
+    <section id="contato" class="card">
+      <h2 class="section-title">Contato e localização</h2>
+      <p><strong>Endereço:</strong> Av. Anhanguera, N° 4908 - St. Central, Goiânia - GO, 74043-010</p>
+      <p><strong>Referência:</strong> 8PGV+87 St. Central, Goiânia - GO</p>
+      <p><strong>Horário atual informado:</strong> Fecha às 19:00 · Abre quinta às 08:00</p>
+      <p><strong>Link:</strong> linktr.ee</p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 - TOP 7 UTILIDADES | Página informativa</p>
+  </footer>
+
+</body>
+</html>
